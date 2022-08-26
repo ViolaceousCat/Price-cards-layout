@@ -1,6 +1,6 @@
 # Price-cards-layout
 
-### [Site link](https://gromcode.github.io/Price-cards-layout/)
+### [Site link](https://violaceouscat.github.io/Price-cards-layout/)
 
 Layout supports desktop (up-to-1440) versions
 
