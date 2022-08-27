@@ -1,0 +1,135 @@
+.price {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: $dark;
+
+  &-card {
+    width: 380px;
+    height: 770px;
+    margin: auto;
+    margin-right: 18px;
+    position: relative;
+    background-color: $dark-grey;
+    color: $white;
+
+    &:last-child {
+      margin-right: auto;
+    }
+
+    &:nth-child(2),
+    &:nth-child(3) {
+      margin-left: 0;
+    }
+
+    &_poster {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    &_top-section {
+      padding: 33px 0;
+
+      &_title {
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+      }
+
+      &_subtitle {
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+      }
+    }
+
+    &_cost {
+      display: flex;
+      justify-content: center;
+      padding: 19px 0;
+
+      &_first {
+        background-color: $green;
+      }
+
+      &_second {
+        background-color: $dark-blue;
+      }
+
+      &_third {
+        background-color: $orange;
+      }
+
+      &_value {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 67px;
+      }
+    }
+
+    &_description {
+      text-align: center;
+      padding: 40px 26px;
+
+      &_text {
+        margin: 0;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+
+    &_list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      &_item {
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        width: 380px;
+        height: 50px;
+
+        &_checkmark {
+          margin: 0 22px;
+        }
+
+        &:nth-child(odd) {
+          background-color: $light-black;
+        }
+      }
+    }
+
+    &_order {
+      width: 155px;
+      height: 40px;
+      border-radius: 20px;
+      border: none;
+      margin: 39px 113px 37px 112px;
+      font-size: 14px;
+      line-height: 17px;
+      color: $white;
+
+      &_first {
+        background-color: $green;
+      }
+
+      &_second {
+        background-color: $dark-blue;
+      }
+
+      &_third {
+        background-color: $orange;
+      }
+    }
+  }
+}
